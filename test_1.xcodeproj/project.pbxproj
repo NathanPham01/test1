@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E9DDB452C605F5F001667A6 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DDB442C605F5F001667A6 /* Movie.swift */; };
+		8E9DDB472C605F80001667A6 /* Movie_samples.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DDB462C605F80001667A6 /* Movie_samples.swift */; };
+		8E9DDB492C605FB9001667A6 /* Movie_Entry_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DDB482C605FB9001667A6 /* Movie_Entry_List.swift */; };
+		8E9DDB4B2C606018001667A6 /* Movie_Entry_Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DDB4A2C606018001667A6 /* Movie_Entry_Page.swift */; };
+		8E9DDB4D2C606067001667A6 /* ListView_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9DDB4C2C606067001667A6 /* ListView_Test.swift */; };
 		8EDCA67C2C605DA0004665BC /* test_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCA67B2C605DA0004665BC /* test_1App.swift */; };
 		8EDCA67E2C605DA0004665BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDCA67D2C605DA0004665BC /* ContentView.swift */; };
 		8EDCA6802C605DA2004665BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDCA67F2C605DA2004665BC /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E9DDB442C605F5F001667A6 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		8E9DDB462C605F80001667A6 /* Movie_samples.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_samples.swift; sourceTree = "<group>"; };
+		8E9DDB482C605FB9001667A6 /* Movie_Entry_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Entry_List.swift; sourceTree = "<group>"; };
+		8E9DDB4A2C606018001667A6 /* Movie_Entry_Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie_Entry_Page.swift; sourceTree = "<group>"; };
+		8E9DDB4C2C606067001667A6 /* ListView_Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView_Test.swift; sourceTree = "<group>"; };
 		8EDCA6782C605DA0004665BC /* test_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDCA67B2C605DA0004665BC /* test_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_1App.swift; sourceTree = "<group>"; };
 		8EDCA67D2C605DA0004665BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E9DDB432C605F47001667A6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8E9DDB442C605F5F001667A6 /* Movie.swift */,
+				8E9DDB462C605F80001667A6 /* Movie_samples.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		8EDCA66F2C605DA0004665BC = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +70,12 @@
 		8EDCA67A2C605DA0004665BC /* test_1 */ = {
 			isa = PBXGroup;
 			children = (
+				8E9DDB432C605F47001667A6 /* Data */,
 				8EDCA67B2C605DA0004665BC /* test_1App.swift */,
+				8E9DDB482C605FB9001667A6 /* Movie_Entry_List.swift */,
 				8EDCA67D2C605DA0004665BC /* ContentView.swift */,
+				8E9DDB4A2C606018001667A6 /* Movie_Entry_Page.swift */,
+				8E9DDB4C2C606067001667A6 /* ListView_Test.swift */,
 				8EDCA67F2C605DA2004665BC /* Assets.xcassets */,
 				8EDCA6812C605DA2004665BC /* Preview Content */,
 			);
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E9DDB4D2C606067001667A6 /* ListView_Test.swift in Sources */,
+				8E9DDB4B2C606018001667A6 /* Movie_Entry_Page.swift in Sources */,
+				8E9DDB492C605FB9001667A6 /* Movie_Entry_List.swift in Sources */,
 				8EDCA67E2C605DA0004665BC /* ContentView.swift in Sources */,
 				8EDCA67C2C605DA0004665BC /* test_1App.swift in Sources */,
+				8E9DDB472C605F80001667A6 /* Movie_samples.swift in Sources */,
+				8E9DDB452C605F5F001667A6 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
