@@ -24,8 +24,8 @@ struct ListView_Test: View {
     }
 }
 
-struct ContactList_Previews: PreviewProvider {
-    static var previews: some View {
-        ListView_Test()
-    }
-}
+//struct ContactList_Previews: PreviewProvider {
+//    static var previews: some View {
+//        ListView_Test()
+//    }
+//}
